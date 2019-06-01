@@ -3,3 +3,11 @@
 #API de  Pontos de interesse POI
 
 API de sistema de pontos de interesse
+
+
+Usando
+	MYSQL
+	Spring.Boot
+	H2 Database
+	FlyWay
+	
