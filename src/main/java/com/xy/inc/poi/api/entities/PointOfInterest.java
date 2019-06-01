@@ -42,7 +42,7 @@ public class PointOfInterest implements Serializable {
 		this.name = name;
 	}
 
-	@Column(name = "coord_x", nullable = false)
+	@Column(name = "coord_x", nullable = true)
 	public Integer getCoord_x() {
 		return coord_x;
 	}
@@ -51,7 +51,7 @@ public class PointOfInterest implements Serializable {
 		this.coord_x = coord_x;
 	}
 
-	@Column(name = "coord_y", nullable = false)
+	@Column(name = "coord_y", nullable = true)
 	public Integer getCoord_y() {
 		return coord_y;
 	}
